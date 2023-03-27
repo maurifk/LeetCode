@@ -6,6 +6,8 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 # Mis cosas
 dibujos/
+.gitignore
+.gitattributes
 
 # User-specific stuff
 .idea/**/workspace.xml
