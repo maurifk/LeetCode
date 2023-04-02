@@ -6,7 +6,7 @@ typedef unsigned long long ull;
 class SumFct{
 public:
   static ull perimeter(int n);
-};
+}; 
 
 
 ull SumFct::perimeter(int n) {

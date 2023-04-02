@@ -1,3 +1,4 @@
+#include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -12,4 +13,8 @@ int digital_root(int n){
   }
   
   return (floor(log10(acum)) + 1 == 1) ? acum : digital_root(acum);
+}
+
+int main(){
+  cout<<digital_root(1213213);
 }
