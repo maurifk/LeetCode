@@ -3,6 +3,7 @@
 using namespace std;
 
 // Should work, idk, gotta ask ChatGPT
+// ChatGPT didn't solve it, idk
 
 class Solution {
 public:
