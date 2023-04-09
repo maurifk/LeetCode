@@ -32,7 +32,7 @@ public:
         pila.push(stoi(token));
       }
     }
-    
+
     return pila.top();
   }
-};
+}; 
