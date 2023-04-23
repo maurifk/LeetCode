@@ -3,11 +3,10 @@ using namespace std;
 
 int modulo = 1e9 + 7;
 
-class Solution
-{
+class Solution{
 public:
-  int profitableSchemes(int n, int minProfit, vector<int> &group, vector<int> &profit)
-  {
+  // O(m*n*k)
+  int profitableSchemes(int n, int minProfit, vector<int> &group, vector<int> &profit){
     int m = group.size();
     vector<vector<vector<int>>> OPT(m + 1, vector(n + 1, vector(minProfit + 1, 0)));
     OPT[0][0][0] = 1;
