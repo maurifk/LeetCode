@@ -15,7 +15,6 @@ getArea x y = snd $ head $ dropWhile (\(a,s) -> dist > a) [(12.7/2,"DB"), (31.8/
 
 ajustarCuadrante :: Double -> Double -> Double
 ajustarCuadrante x y
-                | x<0 && y<0 = 180
                 | x<0        = 180
                 | y<0        = 360
                 | otherwise  = 0
