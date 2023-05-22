@@ -13,8 +13,11 @@ public:
 
   int trap(vector<int>& alts) {
     int maxi = 0, maxd = 0, j;
-    int desdeIzq[alts.size()], desdeDer[alts.size()], res = 0, agua;
-    
+    int n = alts.size();
+    int res = 0, agua;
+    vector<int> desdeIzq(n);
+    vector<int> desdeDer(n);
+
     for (int i = 0; i<alts.size(); ++i){
       j = alts.size() - 1 - i;
       desdeIzq[i] = maxi;
