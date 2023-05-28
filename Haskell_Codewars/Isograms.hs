@@ -7,4 +7,4 @@ isIsogram :: String -> Bool
 isIsogram = f . sortBy (compare `on` ord.toLower)
     where f [] = True
           f [s]  = True
-          f (u:s:xs) = ((/=) `on` toLower) u s && isIsogram xs
+          f all@(u:s:xs) = ((/=) `on` toLower) u s && isIsogram (tail all)
