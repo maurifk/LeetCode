@@ -1,4 +1,3 @@
 # LeetCode and Codewars
- LeetCode Problems Solutions I've made, almost all in C++.
- Now also some Haskell, from codewars.
+ LeetCode and CodeWars problems, solved in C++, Haskell, Java, JavaScript and MySQL.
  Extremely varied problems.
