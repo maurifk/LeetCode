@@ -5,4 +5,4 @@ todosIgual :: (Eq a) => [a] -> Bool
 todosIgual xs = all (== head xs) (tail xs)
 
 esSecAritmetica :: [Int] -> Bool
-esSecAritmetica = todosIgual . tail . (zipWith (-) <*> tail) . sort
+esSecAritmetica = todosIgual . (zipWith (flip (-)) <*> tail)
