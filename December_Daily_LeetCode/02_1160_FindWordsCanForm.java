@@ -1,5 +1,3 @@
-package December_Daily_LeetCode;
-
 import java.util.Arrays;
 
 class Solution {
