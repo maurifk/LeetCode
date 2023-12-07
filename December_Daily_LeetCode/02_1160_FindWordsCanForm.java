@@ -2,13 +2,13 @@ import java.util.Arrays;
 
 class Solution {
     public Boolean puedeFormarse(String palabra, String letras) {
-        if (palabra.length() > letras.length()) 
+        if (palabra.length() > letras.length())
             return false;
 
         char arrTemp[] = palabra.toCharArray();
         Arrays.sort(arrTemp);
         String palSorteada = new String(arrTemp);
-        
+
         Integer puntLetras = 0;
         for(int i = 0; i<palSorteada.length(); ++i){
             char c = palSorteada.charAt(i);
