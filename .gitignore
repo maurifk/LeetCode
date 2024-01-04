@@ -114,5 +114,7 @@ fabric.properties
 # Ignore all local history of files
 .history
 .ionide
+.metals
+.vscode
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,intellij+all

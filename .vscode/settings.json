@@ -4,5 +4,8 @@
         "/home/mauricio/javafx-sdk-21.0.1/lib/javafx.base.jar",
         "javafx.base.jar"
     ],
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "files.watcherExclude": {
+        "**/target": true
+    }
 }
