@@ -7,5 +7,10 @@
     "cmake.configureOnOpen": false,
     "files.watcherExclude": {
         "**/target": true
-    }
+    },
+    "java.project.sourcePaths": [
+        "Contests_LeetCode\\B123",
+        "Daily_LeetCode\\January_2024",
+        "Daily_LeetCode\\December_2023"
+    ]
 }
